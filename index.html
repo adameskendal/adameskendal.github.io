@@ -1,0 +1,203 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			/* Custom CSS for Icon Alignment */
+			.icons {
+				display: flex;
+				justify-content: center; /* Center the icons horizontally */
+				list-style: none;
+				padding-left: 0;
+				width: 100%; /* Ensure full width */
+				margin: 300px 0 0 0; /* Add margin to give space below the avatar */
+			}
+
+			.icons li {
+				margin-right: 10px; /* Space between icons */
+			}
+
+			.icons li:last-child {
+				margin-right: 0; /* Remove the last item's extra space */
+			}
+
+			/* Make icons black */
+			.icons li a {
+				color: white; /* Set icon color to black */
+				text-decoration: none; /* Remove underline */
+			}
+
+			.icons li a:hover {
+				color: gray; /* Optional: change color on hover */
+			}
+
+			/* Mobile Specific CSS */
+			@media (max-width: 768px) {
+				.icons {
+					justify-content: center; /* Keep icons centered on mobile */
+				}
+			}
+
+			/* Ensure footer content does not interfere */
+			#footer {
+				text-align: center;
+			}
+
+			#footer .inner {
+				display: flex;
+				flex-direction: column;
+				align-items: center; /* Center content */
+			}
+
+			/* Center icons directly below headshot */
+			#header .inner {
+				display: flex;
+				flex-direction: column;
+				align-items: center; /* Center everything */
+			}
+
+			.avatar {
+				margin-bottom: 20px; /* Add space below the headshot */
+			}
+
+			/* Freelance services logos alignment */
+			.services {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: center;
+				gap: 20px;
+			}
+
+			.service-item {
+				flex: 1 1 45%; /* Ensure two per row */
+				display: flex;
+				align-items: center;
+			}
+
+			.service-item img {
+				width: 24px;
+				height: 24px;
+				vertical-align: middle;
+				margin-right: 10px;
+			}
+
+			.service-item h2 {
+				font-size: 1.2em;
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+					<h1><strong>I am Kendal Adames, a dedicated IT support professional with a strong foundation in both hardware and software operations.</strong><br />
+					</h1>
+					<!-- Social Icons Centered Below Headshot in a Row -->
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kendal-adames-b1a266328/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/adameskendal" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:adameskendal@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>About me</h2>
+						</header>
+						<p>Hello! I'm a 22-year-old aspiring software developer currently pursuing my Bachelor's degree in Computer Science at Western Governors University. My passion for technology drives me to continuously learn and build new things. I thrive on creativity and problem-solving, and I enjoy taking on challenges that let me blend my technical skills with my love for building. Outside the digital world, I’m an avid cook who enjoys experimenting in the kitchen, a gamer who loves exploring new worlds and stories, and a fitness enthusiast who values time at the gym to stay balanced and energized.
+
+							I’m excited to enter the world of software development, where I can contribute my skills, grow professionally, and bring my unique blend of creativity and technical expertise to impactful projects.
+							
+							Feel free to explore my projects and get in touch if you'd like to connect!</p>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2 class="align-left">Recent Work</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/IMG_2137.jpg" class="image fit thumb"><img src="images/IMG_2135.jpg" alt="" /></a>
+								<h3>Remote Mower</h3>
+								<p>Sabertooth motordriver, 2-12V fans, 1" 12guage sq tube, marketplace mower. Two 12V batteries run in series to make this a 24V circuit.</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/02.jpg" class="image fit thumb"><img src="images/fulls/02.jpg" alt="" /></a>
+								<h3>Project 2</h3>
+								<p>Desc.</p>
+							</article>
+						</div>
+						
+						<!-- Freelance Services Heading -->
+						<h2 class="align-left" style="text-align: left; margin-left: 0;">Freelance Services</h2>
+						
+						<!-- Freelance Services List with Logos -->
+						<div class="services">
+							<div class="service-item">
+								<img src="images/logo2.png" alt="Network Logo">
+								<h2>Network Setup</h2>
+							</div>
+							
+							<div class="service-item">
+								<img src="images/troubleshoot2.png" alt="Troubleshooting">
+								<h2>Troubleshooting</h2>
+							</div>
+							
+							<div class="service-item">
+								<img src="images/cybs.png" alt="CyberSecurity Services">
+								<h2>CyberSecurity Services</h2>
+							</div>
+							
+							<div class="service-item">
+								<img src="images/setup.png" alt="Computer Repair">
+								<h2>Computer Repair</h2>
+							</div>
+							
+							<div class="service-item">
+								<img src="images/home setup.png" alt="Home and office setup">
+								<h2>Home & Office Setup</h2>
+							</div>
+							
+							<div class="service-item">
+								<img src="images/data.png" alt="Data Backup">
+								<h2>Data Backup & Recovery</h2>
+							</div>
+						</div>
+
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/kendal-adames-b1a266328/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/adameskendal" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:adameskendal@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
